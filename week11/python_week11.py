@@ -29,3 +29,14 @@ my-variable = 5        # Hyphen is not allowed
 def = "nope"           # 'def' is a reserved keyword
 $$$Variable = "bad"    # Special symbols are not allowed
 """
+
+
+# Level 6: Using the type() function to understand data types
+
+x = type(3)          
+y = type("Hello")   
+z = type(True)      
+
+print(x)
+print(y)
+print(z)
