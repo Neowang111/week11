@@ -40,3 +40,27 @@ z = type(True)
 print(x)
 print(y)
 print(z)
+
+# Level 7: Using print() to check what data types are being stored
+
+a = 5            
+b = 3.14         
+c = "Hello"      
+d = True         
+e = None         
+f = [1, 2, 3]    
+
+type_a = type(a)
+type_b = type(b)
+type_c = type(c)
+type_d = type(d)
+type_e = type(e)
+type_f = type(f)
+
+
+print(type_a)    
+print(type_b)   
+print(type_c)     
+print(type_d)     
+print(type_e) 
+print(type_f)  
